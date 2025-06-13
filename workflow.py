@@ -133,7 +133,7 @@ workflow.add_conditional_edges("extract_appointment_details", check_details_extr
 workflow.add_edge("prompt_for_mode", 'register_mode')
 workflow.add_edge("register_mode", 'confirm_appointment')
 
-workflow.add_edge("clarify_missing_details", END)
+workflow.add_edge("clarify_missing_details", END)  # it should move to extract_appointment_details but it was giving loop limit error , so for demo putting END .
 workflow.add_edge("handle_general_query", END)
 workflow.add_edge("confirm_appointment", END)
 workflow.add_edge("handle_fallback", END)
