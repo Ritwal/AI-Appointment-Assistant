@@ -27,4 +27,19 @@ open workflow.py
 paste your openai API key in line 11 and save it
 streamlit run Assistant_app.py
 
+-----
+
+# Chat sample
+
+**User** - hi
+**AI** - Hello! How can I assist you today?
+**User** - book appointment
+**AI** - Sure, what date and time would you like to book your appointment?
+**User** - 30 june
+**AI** - Hello! It seems you're looking to book an appointment for June 30th. Could you please provide more details, such as the type of appointment and any specific time you have in mind?
+**User** - 9 am, vistual
+**AI** - ✅ Your Virtual appointment is confirmed for 2025-06-30 at 9:00 AM. You'll receive a calendar invite shortly.
+**AI** - Is there anything else I can help you with?
+**User** - what service do you provide
+**AI** - Hello! I'm here to assist with a wide range of inquiries, such as providing information, answering questions, helping with scheduling, and offering guidance on various topics. If you have a specific question or need assistance with something, feel free to let me know!
 
