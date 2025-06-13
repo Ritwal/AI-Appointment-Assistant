@@ -6,7 +6,14 @@ An AI-powered appointment assistant built using LangGraph, LangChain, OpenAI GPT
 
 An intelligent agentic chatbot built with **LangGraph**, **LangChain**, **OpenAI GPT-4o**, and **Streamlit** to help users book appointments conversationally.
 
+
+# Workflow 
+
+![image](https://github.com/user-attachments/assets/33611cff-9ed1-4887-bf32-435e18f62c5a)
+
 ---
+
+
 
 ## How to Use This Assistant
 
@@ -19,3 +26,5 @@ pip install -r requirements.txt
 open workflow.py
 paste your openai API key in line 11 and save it
 streamlit run Assistant_app.py
+
+
