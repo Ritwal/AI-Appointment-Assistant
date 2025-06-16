@@ -2,9 +2,6 @@
 
 An AI-powered appointment assistant built using LangGraph, LangChain, OpenAI GPT-4o, and Streamlit. It interacts with users, detects intent, extracts appointment details, and guides them through the booking process.
 
-# AI Appointment Assistant
-
-An intelligent agentic chatbot built with **LangGraph**, **LangChain**, **OpenAI GPT-4o**, and **Streamlit** to help users book appointments conversationally.
 
 
 # Workflow 
